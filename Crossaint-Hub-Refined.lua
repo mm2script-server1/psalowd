@@ -263,7 +263,7 @@ local lineBottom=make("Frame",body,{Position=UDim2.fromOffset(0,387),
 local bottomGrad=make("UIGradient",lineBottom,{Offset=Vector2.new(-0.8,0),
     Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0,0.8),
         NumberSequenceKeypoint.new(0.5,0.05),NumberSequenceKeypoint.new(1,0.8)})})
-local footer=label(body,"MADE BY NEXIO     ·     CROSSAINT HUB",
+local footer=label(body,"MADE BY CROSSAINT HUB",
     UDim2.new(1,0,0,20),UDim2.fromOffset(0,401),10,true,7)
 footer.TextXAlignment=Enum.TextXAlignment.Center
 local note=label(body,"Trade actions require connected handlers",
